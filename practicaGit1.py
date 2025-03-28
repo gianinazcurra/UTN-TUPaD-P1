@@ -1,3 +1,4 @@
 nombre='Gianina'
 apellido='Azcurra'
-print(f"Hola, mi nombre es {nombre} y mi apellido {apellido0}")
+edad='38'
+print(f"Hola, mi nombre es {nombre} y mi apellido {apellido} y mi edad es {edad}")
