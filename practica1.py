@@ -15,12 +15,12 @@ def validar_mes():
     return mes
 
 def validar_dia(mes):
-    # Definimos el número máximo de días en cada mes
+   
     dias_en_mes = {
         1: 31, 2: 28, 3: 31, 4: 30, 5: 31, 6: 30,
         7: 31, 8: 31, 9: 30, 10: 31, 11: 30, 12: 31
     }
-    # Si el mes es febrero, hay que verificar si es año bisiesto o no
+    
     if mes == 2:
         dia = int(input(f"Ingrese el día del mes (1-{dias_en_mes[mes]}) : "))
     else:
@@ -42,7 +42,7 @@ def determinar_estacion(hemisferio, mes, dia):
             return "Verano"
         else:
             return "Otoño"
-    else:  # Hemisferio Sur
+    else: 
         if (mes == 12 and dia >= 21) or (1 <= mes <= 3 and (mes != 3 or dia <= 20)):
             return "Verano"
         elif (3 <= mes <= 5) and (mes != 6 or dia <= 20):
