@@ -1,3 +1,4 @@
+
 #Ejercicio 1 1) Crea un programa que imprima en pantalla todos los números enteros desde 0 hasta 100 
 # (incluyendo ambos extremos), en orden creciente, mostrando un número por línea.
 
@@ -113,3 +114,6 @@ print("La media de los valores ingresados es de : " , sumatoria/cantidad_maxima)
 # usuario. Ejemplo: si el usuario ingresa 547, el programa debe mostrar 745.
 
 numero=input("Ingrese un número e invertiremos los dígitos")
+numero_invertido = numero[::-1]
+print("El número con los dígitos invertidos es:", numero_invertido)
+
